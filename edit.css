@@ -1,0 +1,408 @@
+	/* LINKS 
+
+	http://www.colorzilla.com/gradient-editor/
+	https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms
+	https://www.w3schools.com/
+	https://www.htmlprogressivo.net/
+	https://pt.stackoverflow.com/
+
+
+	*/
+
+	@font-face{
+		font-family: NEON;
+		src: url('font/NEON.ttf');
+		
+	}
+
+
+	@font-face{
+		font-family: tech;
+		src: url('font/tech.ttf');
+		
+	}
+
+	#logo{padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%;		
+		text-decoration: none; 
+		color: rgb(176,224,230);
+	}
+	#produtos{padding: 0% 0% 0% 4%; margin: 0%;
+		text-decoration: none; 
+		color: rgb(176,224,230);
+	}
+	#cliente{padding: 0% 0% 2% 5%;
+		text-decoration: none; 
+		color: rgb(176,224,230);
+	}
+	#fornecedor{padding: 0% 0% 2% 5%;
+		text-decoration: none; 
+		color: rgb(176,224,230);
+		hover: rgb(255,255,255);
+	}
+	#atendimento{padding: 0% 0% 2% 5%;
+		text-decoration: none; 
+		color: rgb(176,224,230);
+	}
+	#menu{font-size: 125%; font-family: arial; padding-bottom: 5%;  background-size: cover;}
+	#topbar{}
+	#trabalhe_conosco{padding: 0% 0% 2% 5%;
+		text-decoration: none; 
+		color: rgb(176,224,230);
+	}
+
+	#log_out{
+		
+		padding: 0% 0% 0% 5%;
+		text-decoration: none; 
+		color: rgb(176,224,230);
+
+	}
+
+
+	.row{
+		width: 80%;
+		height: 100%;
+		left:10%;
+		text-align:center;
+		background-color: white;
+		position: absolute;
+
+	}
+	.coluna{
+		width: 50%;
+		height: 280;
+		left:25%;
+		text-align:center;
+		background-color: rgba(254,254,255,.95);
+		border: solid rgba(100,100,255,.4) 10px;
+		position: relative;	
+		font-family: tech;
+
+	}
+	.bar{
+		
+
+		width: 100%;
+		height: 60px;
+		padding: 0px;
+		margin: 2px;
+		background-color: black;
+		font-family: NEON;
+
+	
+	
+		border: solid rgb(250,250,250) 2px;
+
+
+	}
+
+
+	.topbar{
+		border: solid white 2px;
+		border-radius: 3%;
+		height: 10%;
+		padding: 0%;
+		height: 90%; width: 100%;
+		
+		background-size: 10% 5%;
+
+	}
+
+
+
+
+
+	.button{
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5%;
+		border: solid gray 2px;
+
+	}
+
+	.form_cliente{
+		width:200px;
+		height: 300px;
+
+		text-align: center;
+		
+		border:solid white 2px;
+		position: absolute;
+		background: rgba(50,50,100,.2);
+		padding: 0px;
+		font-family: tahoma;
+
+		margin: 100px 0px 0px 350px;
+		padding: 30px 30px 30px 30px;
+	}
+
+	.form_cliente1{
+		width:400px;
+		height: 500px;
+	
+		text-align: center;
+		
+		border:solid white 2px;
+		position: absolute;
+		background: rgba(50,50,100,.2);
+		padding: 0px;
+		font-family: tahoma;
+
+		margin: 10px 0px 0px 500px;
+		padding: 30px 30px 30px 30px;
+	}
+
+	.form_cliente2{
+		width:200px;
+		height: 200px;
+
+		text-align: center;
+		border:solid white 2px;
+		position: absolute;
+		background: rgba(50,50,100,.2);
+		padding: 120px 30px 0px 30px;
+		font-family: tahoma;
+
+		margin: -178px 0px 100px 300px;
+	}
+
+	.cadastro{
+		
+		
+		width:280px;
+		height: 450px;
+		
+		text-align: center;
+		border:solid white 2px;
+		position: relative;
+		background: rgba(50,50,100,.2);
+		padding: 50px 30px 0px 30px;
+		left: 500px;
+		top: 50px;
+		font-family: tahoma;
+
+
+	}
+	.cadastro_cliente{
+		margin-top: -40px;
+
+
+	}
+	.center{
+		
+				
+		border: solid red 5px;
+		text-align: center;
+		width: 10%;
+		border:solid black 2px;
+		position: absolute;
+		background: rgba(255,255,255,.7);
+		padding: 5%;
+		font-family: tahoma;
+	
+
+	}
+
+	.leftbar{
+		
+		border: solid gray 1px;
+		height: 580px;
+		width: 500px;
+		bottom: 10px;
+		left: 0px;
+		padding-left: 10px;
+		text-align: justify;
+		background: rgba(0,0,255,.06);
+		color:white;
+		font-family: sans-serif;
+		font-size: 18px;
+		position: absolute;
+
+
+
+	}
+	.crud{
+		position: relative;
+		/*border: solid gray 1px;*/
+		left: 35px;
+		top: 20px;
+		
+		width: 1200px;
+		height: 550px;
+		background-color: rgba(180,180,255,.05);
+
+	}
+
+	.ccrud{
+		left: 460px;
+		top: 0px;
+		text-align: center;
+		position: absolute;
+		
+		width: 280px;
+		height: 500px;
+
+		border: solid rgb(150,150,255) 1px;
+		background-color: rgba(150,150,255,.1);
+
+	}
+
+	.lcrud{
+		left: 25px;
+		text-align: center;
+		position: absolute;
+		width: 280px;
+		height: 500px;
+		
+		border: solid rgb(150,150,255) 1px;
+		background-color: rgba(150,150,255,.1);
+
+	}
+
+	.rcrud{
+		left: 885px;
+		position: absolute;
+		top: 0px;
+		text-align: center;
+
+		width: 280px;
+		height: 500px;
+
+		border: solid rgb(150,150,255) 1px;
+		background-color: rgba(150,150,255,.1);
+
+	}
+
+
+	.lupdate{
+		top: 10px;
+		left: 50px;
+		text-align: left;
+		color: white;
+		font-family: courier;
+		font-size: 18px;
+		position: absolute;
+		/*border: solid red 3px;*/
+		width: 500px;
+		height: 90%;
+		/*background-color: rgb(255,255,255);*/
+		padding-left: 20px;
+		padding-top: 20px;
+		border:solid white 2px;
+		position: absolute;
+		background: rgba(50,50,100,.2);
+
+	}
+
+	.rupdate{
+		left: 650px;
+		text-align: left;
+		color: white;
+		font-family: tech;
+		font-size: 18px;
+		position: absolute;
+		border: solid red 3px;
+		width: 600px;
+		height: 400px;
+		/*background-color: rgb(255,255,255);*/
+		padding-left: 20px;
+		padding-top: 20px;
+		border:solid white 2px;
+		position: absolute;
+		background: rgba(50,50,100,.2);
+
+	}
+	.lefthint{
+
+		border: solid white 2px;
+		height: 190px;
+		width: 350px;	
+		text-align: center;
+		background-image: url(imgs/box.png);
+		background-size: 360px;
+		font-family: tech;
+		font-size: 18px;	
+		font-style: bold;
+		padding: 30px 0px 0px 0px;
+		-moz-border-radius:7px;
+		-webkit-border-radius:7px;
+ 		border-radius:7px;
+ 		margin-left: -530px;
+ 		margin-top: -150px;
+ 		position: absolute;
+
+
+	}
+
+	.centerhint{
+		
+		border: solid rgba(50, 50, 200, .6) 1px;
+		height: 200px;
+		width: 400px;	
+		text-align: center;
+		background: rgba(250,255,255,.7);
+		font-family: sans-serif;
+		font-size: 18px;	
+		padding: 30px 0px 0px 0px;
+		-moz-border-radius:7px;
+		-webkit-border-radius:7px;
+ 		border-radius:7px;
+ 		margin-left: 420px;
+
+
+	}
+
+
+
+	.rightbar{
+		
+		border: solid black 1px;
+		height: 500px;
+		width: 400px;
+		margin: 0px 0px 0px 350px;
+		padding: 0px;
+		text-align: left;
+		background: rgba(255,255,255,.7);
+		font-family: sans-serif;
+		font-size: 18px;
+
+
+
+	}
+
+	body{
+
+
+		height:100%;
+		background-size: cover;
+		text-align: justify;
+		
+		background-color: rgb(0,0,0);
+		font-size: 100%;
+		font-family: tahoma;
+		background-image: url(imgs/grad_blue.jpg); 
+		background-image-size:100%;
+		
+
+	}
+
+	.sub_links{
+
+		text-decoration: none; 
+		color: red;
+		font-family: arial;
+
+	}
+
+
+	input, textarea, select, button {
+  		width : 150px;
+  		margin: 0;
+
+ 		-webkit-box-sizing: border-box; 
+    	-moz-box-sizing: border-box; 
+        box-sizing: border-box;
+	}
+	
+	a:link, a:visited{text-decoration: none; color: white}
+	a:hover{color: rgb(130,200,250)}
